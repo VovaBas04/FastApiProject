@@ -14,8 +14,9 @@
   1) Выполните комманду python3.8 -m venv venv
   2) Выполните комманду source venv/bin/activate
   3) Выполните комманду sudo apt install uvicorn
-  4) Выполните pip install -r requirments.txt
-  5) Перейдите в каталог menu коммандой cd menu
+  4) Выполните комманду pip install setuptools===66.1.1 pip===22.3.1
+  5) Выполните pip install -r requirments.txt
+  6) Перейдите в каталог menu коммандой cd menu
 5)В папке menu:
   1) Для запуска сервера выполните uvicorn main:app --reload
 
